@@ -1,0 +1,15 @@
+package Lesson6;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Кот Василий: ");
+        Animal catVasily = new Cat(200,0);
+        catVasily.run(50);
+        catVasily.swim(0);
+
+        System.out.println("Собака Тристан: ");
+        Animal dogTristan = new Dog(150,10);
+        dogTristan.run(150);
+        dogTristan.swim(4);
+    }
+}
